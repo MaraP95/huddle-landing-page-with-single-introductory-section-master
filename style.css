@@ -69,6 +69,42 @@ body{
 }
 
 
+footer{
+    display: flex; ;
+    justify-content: end;
+    margin-top: 80px;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+footer i.fa-brands {
+    font-size: 40px;
+    color: white;
+
+}
+
+.icon{
+    display: inline-block;
+    border-radius: 100%;
+    box-shadow: 0 0 2px white;
+    padding: 10px;
+}
+
+.icon:hover{
+    background: purple;
+}
+
+.fa-facebook-f  {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.fa-instagram {
+    padding-left: 4px;
+    padding-right: 4px;
+}
 
 
 
@@ -78,11 +114,17 @@ body{
     }
 }
 @media only screen and (max-width: 768px){
+    footer {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
     .main{
         flex-direction: column;
         text-align: center;
     }
-    .hero-txt{
-        font-size: ;
-    }
+
+    .hero-txt h1{
+        text-aling: center;
+        }
 }
